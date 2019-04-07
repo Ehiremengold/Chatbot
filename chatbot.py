@@ -1,7 +1,12 @@
 from random import choice 
-choicer = ['good to chat with you','that is nice','you will be alright', 'okay','lol', 'that\'s good to know', 'wow!', 'lmao', 'ode', 'ozwor','got it']
+choicer = ['good to chat with you','that is nice','you will be alright', 'okay','lol', 'that\'s good to know', 'wow!', 'lmao','ode', 'ozwor','got it']
+rander = ['i dey oo', 'i hail you oo']
 print('q-bot: Hi')
 user_input1 = input("You:")
+if user_input1 == 'how far':
+  print('q-bot:I greet you oo')
+if user_input1 == 'whatsup' or 'whatsup guy' or 'whatsup bot':
+  print('q-bot:' + choice(rander))
 print('q-bot: This is q-bot! nice to meet you')
 print('______')
 print('|+  +|')
@@ -13,13 +18,15 @@ print('q-bot:How was your day '+ user_input2)
 user_input3 = input('You:')
 if user_input3 == "good":
    print('q-bot:That great ' + user_input2 + "," + ' that\'s good to know.')
-elif user_input3 == 'bad':
-   print('q-bot:Awwwn, you will be alright.')
+elif user_input3 == 'not good oo':
+   print('q-bot:We go dey alright.')
 else:
    print('q-bot:'+ choice(choicer))
 user_input4 = input('You:')
 if user_input4 == 'how are you':
   print('q-bot:I am fine thanks for asking')
+elif user_input4 == 'how was your day':
+  print('q-bot:It\'s was fine thank you')
 elif user_input4 == 'who are you':
   print('q-bot:I am a python chatbot created by queen-tech')
 elif user_input4 == 'how old are you':
@@ -37,7 +44,7 @@ elif user_input4 == 'are you still there':
 elif user_input4 == 'are you a boy or a girl':
   print('q-bot:I am neither male nor female')
 else:
-  print('Wow,really')
+  print('q-bot:good for me')
 
 user_input5 = input('You:')
 if user_input5 == 'how are you':
