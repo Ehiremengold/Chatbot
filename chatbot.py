@@ -19,7 +19,7 @@ user_input3 = input('You:')
 if user_input3 == "good":
    print('q-bot:That great ' + user_input2 + "," + ' that\'s good to know.')
 elif user_input3 == 'not good oo':
-   print('q-bot:We go dey alright.')
+   print('q-bot:We would be alright.')
 else:
    print('q-bot:'+ choice(choicer))
 user_input4 = input('You:')
@@ -66,7 +66,7 @@ elif user_input5 == 'are you still there':
 elif user_input5 == 'are you a boy or a girl':
   print('q-bot:I am neither male nor female')
 else:
-  print('Wow,really')
+  print('q-bot:Sorry q-bot won\'t be able to answer your question know. Please wait for the update')
   
 user_input6 = input('You:')
 if user_input6 == 'how are you':
@@ -88,7 +88,7 @@ elif user_input6 == 'are you still there':
 elif user_input6 == 'are you a boy or a girl':
   print('q-bot:I am neither male nor female')
 else:
-  print('Wow,really')
+  print('q-bot:Sorry q-bot won\'t be able to answer your question know. Please wait for the update')
 
 
 
