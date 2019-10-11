@@ -1,7 +1,6 @@
-#!/bin/python3
 from random import choice
 
-choicer = ['good chatting with you','that is nice','you will be alright', 'okayyy', 'that\'s good to know', 'wow!','got it']
+choicer = ['good chatting with you','that is nice', 'okayyy', 'that\'s good to know','got it']
 
 replies = ['q-bot: Sorry this is a vulgar statement', 
 'q-bot:I am fine thanks for asking', 
@@ -40,6 +39,7 @@ elif user_input3 == 'not good':
    print('q-bot:You would be alright.')
 else:
    print('q-bot:'+ choice(choicer))
+   
 user_input4 = input('You:')
 if 'fuck' in user_input4:
    print(replies[0])
@@ -70,45 +70,44 @@ if 'fuck' in user_input5:
 if user_input5 == 'how are you':
    print(replies[1])
 elif user_input5 == 'who are you':
-   print(replies[2])
-elif user_input5 == 'how old are you':
    print(replies[3])
-elif user_input5 == 'what is your name':
+elif user_input5 == 'how old are you':
    print(replies[4])
-elif user_input5 == 'are you human':
+elif user_input5 == 'what is your name':
    print(replies[5])
-elif user_input5 == 'what\'s your name':
+elif user_input5 == 'are you human':
    print(replies[6])
-elif user_input5 == 'who made you':
+elif user_input5 == 'what\'s your name':
    print(replies[7])
-elif user_input5 == 'are you still there':
+elif user_input5 == 'who made you':
    print(replies[8])
-elif user_input5 == 'are you a boy or a girl':
+elif user_input5 == 'are you still there':
    print(replies[9])
-else:
+elif user_input5 == 'are you a boy or a girl':
    print(replies[10])
+else:
+  print("q-bot:....")
 
 user_input6 = input('You:')
-if 'fuck' in user_input4:
+if 'fuck' in user_input6:
    print(replies[0])
 if user_input6 == 'how are you':
     print(replies[1])
 elif user_input6 == 'who are you':
-    print(replies[2])
-elif user_input6 == 'how old are you':
     print(replies[3])
-elif user_input6 == 'what is your name':
+elif user_input6 == 'how old are you':
     print(replies[4])
-elif user_input6 == 'are you human':
+elif user_input6 == 'what is your name':
     print(replies[5])
-elif user_input6 == 'what\'s your name':
+elif user_input6 == 'are you human':
     print(replies[6])
-elif user_input6 == 'who made you':
+elif user_input6 == 'what\'s your name':
     print(replies[7])
-elif user_input6 == 'are you still there':
+elif user_input6 == 'who made you':
     print(replies[8])
-elif user_input6 == 'are you a boy or a girl':
+elif user_input6 == 'are you still there':
     print(replies[9])
-else:
+elif user_input6 == 'are you a boy or a girl':
     print(replies[10])
-
+else:
+    print("q-bot:....")
